@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedorGaleria{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: red;
+    color: white;
+}
+.contenedorGaleria img{
+    width: 100%;
+  }
+  .contenedorMiniaturas img{
+    width: 25%;
+    transition: .3s;
+  }
+  .contenedorMiniaturas img:hover{
+    transform: scale(1.1);
+    transition: .3s;
+  }
