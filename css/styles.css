@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -33,11 +33,9 @@ body{
   border-radius: 5px;
 }
 .contenedorGaleria{
-    width: 80%;
-    margin: 0 auto;
-    padding: 1rem;
-    background-color: red;
-    color: white;
+    
+    color: #232f3e;
+    padding: 10px;
 }
 .contenedorGaleria img{
     width: 100%;
@@ -65,6 +63,9 @@ body{
     font-size: 50px;
     font-weight: 800;
   }
+  .formulario-centrado h1{
+    margin-bottom: 10px;
+  }
   .formulario-busqueda{
     width: 80%;
     box-sizing: border-box;
@@ -90,3 +91,60 @@ body{
     cursor: pointer;
   
   }
+  /*Estilos contenido principal*/
+  .contendedor-contenidos-principal{
+    display: flex;
+  }
+  .contenidos-left{
+    background-color: #fdd39b;
+    padding: 20px;
+    width:20%;
+  }
+   .encabezado-producto p{
+    margin: 0 !important;
+    padding: 0;
+  }
+
+  .contenidos-right{
+    width: 80%;
+    display: flex;
+    flex-flow: wrap;
+    
+  }
+  .producto{
+    width: 50%;
+    padding: 20px;
+    background-color: #fee9cc;
+  }
+  .nombre-producto{
+    font-size: 40px;
+    margin: 0;
+  }
+  /*Estilos para footer*/
+  .contenedor-footer{
+    background-color: #232f3e;
+    color: white;
+    min-height: 400px;
+    padding: 20px 0;
+
+  }
+.footer-centrado{
+  width: 80%;
+ margin: 0 auto;
+}
+.contenidos-footer{
+  display: flex;
+}
+.contenidos-footer div h3{
+  color: #febd69;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.contenidos-footer div{
+  padding: 10px;
+}
+.copy{
+text-align: center;
+margin-top: 100px;
+
+}
