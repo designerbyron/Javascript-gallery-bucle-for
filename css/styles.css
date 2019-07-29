@@ -3,7 +3,35 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-
+.nav-container{
+  padding: 0 20px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #232f3e;
+}
+.nav-container a,.nav-container .links-container a{
+  color: white;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.1rem;
+}
+.nav-container .links-container a{
+  padding: 10px 15px;
+}
+.nav-container .links-container a:hover{
+  color: rgb(192, 192, 192);
+}
+.upload-item{
+  color: #232f3e !important;
+  background-color: #febd69;
+  border-radius: 5px;
+}
+.upload-item:hover{
+  background-color: #fdd39b;
+  border-radius: 5px;
+}
 .contenedorGaleria{
     width: 80%;
     margin: 0 auto;
@@ -21,4 +49,44 @@ body{
   .contenedorMiniaturas img:hover{
     transform: scale(1.1);
     transition: .3s;
+  }
+
+  /*formulario de busqueda*/
+  .form-container{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    background-color: #febd69;
+    color: #232f3e;
+  }
+  .form-container h1{
+    font-size: 50px;
+    font-weight: 800;
+  }
+  .formulario-busqueda{
+    width: 80%;
+    box-sizing: border-box;
+    display: inline-block;
+
+  }
+  .formulario-busqueda input[type="search"]{
+    outline: 0;
+    border: none;
+    width: 79%;
+    height: 50px;
+    line-height: 50px;
+    padding: 10px;
+    font-size: 1.2rem;
+    position: relative;
+  }
+  .formulario-busqueda button{
+    width:19.999%;
+    border: none;
+    position: relative;
+    height: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  
   }
